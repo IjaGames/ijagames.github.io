@@ -6,7 +6,7 @@ permalink: /privacy.html
 
 # Ija Belote - Privacy Policy
 
-Last updated: 2026-11-06
+Last updated: 2026-11-08
 
 Ija Belote (package `com.ijagames.ijabelote`) is a Tunisian Belote card game for Android. This policy explains what the app stores, what it shares and how you can ask us to delete your data.
 
@@ -22,6 +22,8 @@ When you play online, our game server stores:
 - if you choose to link an e-mail address: the e-mail address and your password (stored only as a salted hash, never in clear);
 - your game statistics and a short history of your recent games;
 - the display name and seat you take at a table, which other players at that table and in the public table list can see.
+
+**Game moves, to improve the bots.** For online games that have at least one human player, the server also keeps the moves of each finished round: the cards dealt, the bids, the gestures, the cards played and the points won. These records are anonymous: they contain **no account identifier, no name and no e-mail**, only a random match code. They are stored on our server's computer, used only to measure and train the computer players of the game, kept for up to one year and never shared or sold. This is a condition of online play and cannot be switched off; if you do not accept it, play against the bots, which keeps everything on your phone. Because the records are not linked to an account, we cannot find and delete the moves of one particular player.
 
 Chat messages are passed to the players at your table and are not kept for any other use. The server is reached over an encrypted (HTTPS) connection through a relay service (Tailscale Funnel) that carries encrypted traffic only.
 
